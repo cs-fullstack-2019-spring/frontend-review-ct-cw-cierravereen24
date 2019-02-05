@@ -57,6 +57,22 @@ for (var i = 0; i < gameSpaces.length; i++) {
 }
 
 
+//fucntion to check rather if cat won the game vs X or O
+
+function CAT() {
+    let checkCat = true;
+    for (i = 0; i < gameSpaces.length; i++) {
+        if (gameSpaces[i].innerHTML === "") {
+            checkCat = false;
+
+        }
+    }
+
+        if (checkCat === true)
+    {
+        alert("You both lost! It's a cat game.")
+    }
+}
 
 // reset button as a loop that when press will start the game board over
 
