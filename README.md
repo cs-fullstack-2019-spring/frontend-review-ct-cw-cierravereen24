@@ -1,3 +1,6 @@
+### POINTS: 1.5
+### CAT detection didn't work, but overal a Nice Job!
+
 # Frontend Review CT complete CW
 
 ### Exercise 1:
